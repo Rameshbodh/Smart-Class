@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu  xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/navigation_item_1"
+        android:icon="@drawable/home_icon"
+        android:title="HOME"/>
+    <item
+        android:id="@+id/navigation_item_2"
+        android:icon="@drawable/mypurchase"
+        android:title="Q and A Discussions"/>
+    <item
+         android:id="@+id/navigation_item_3"
+         android:icon="@drawable/notification"
+         android:title="Scoreboard"/>
+    <item
+        android:id="@+id/navigation_item_4"
+        android:icon="@drawable/invite"
+        android:title="Invite Friends"/>
+  
+
+  </group>
+  <item>
+    <menu>
+      <item
+        android:id="@+id/navigation_subItem_1"
+        android:icon="@drawable/icon_setting"
+        android:title="SETTINGS" />
+      <item
+        android:id="@+id/navigation_subItem_2"
+        android:icon="@drawable/icon_rate"
+        android:title="RATE" />
+     </menu>
+  </item>
+
+</menu>

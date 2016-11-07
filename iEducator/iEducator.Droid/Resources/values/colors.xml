@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <color name="colorPrimary">#D84315</color>
+  <color name="colorPrimaryDark">#BF360C</color>
+  <color name="colorAccent">#A7FFEB</color>
+  <color name="window_background">#F5F5F5</color>
+  <color name="mcqOptionsTextColor">#999999</color>
+</resources>

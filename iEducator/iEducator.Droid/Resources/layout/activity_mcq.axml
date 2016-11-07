@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:id="@+id/linearLayoutMCQ"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewNumber"
+            android:padding="10dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="normal"
+            android:text="Result = 2/5"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:background="@drawable/rounded_corner" />
+        <TextView
+            android:text="Question"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:id="@+id/textView1"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="normal|italic"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:background="@drawable/style_MCQ_activity"
+            android:layout_marginTop="30dp"
+            android:padding="10dp" />
+        <Button
+            android:id="@+id/button1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:text="option 1"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="normal"
+            android:scrollbars="vertical"
+            android:textColor="@color/mcqOptionsTextColor"
+            android:background="@drawable/circular_border" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_toRightOf="@+id/button1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="option 2"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="normal"
+            android:scrollbars="vertical"
+            android:textColor="@color/mcqOptionsTextColor"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/circular_border" />
+        <Button
+            android:id="@+id/button3"
+            android:layout_below="@+id/button1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="option 3"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="normal"
+            android:scrollbars="vertical"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/mcqOptionsTextColor"
+            android:background="@drawable/circular_border" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="option 4"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="normal"
+            android:scrollbars="vertical"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/button3"
+            android:layout_below="@+id/button2"
+            android:textColor="@color/mcqOptionsTextColor"
+            android:background="@drawable/circular_border" />
+        <Button
+            android:text="submit"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button5"
+            android:background="@drawable/border_for_submit_button_mcq_activity"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+</ScrollView>

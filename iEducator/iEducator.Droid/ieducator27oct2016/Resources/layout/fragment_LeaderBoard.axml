@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal|bold"
+        android:text="Your Score In I-Educator"
+        android:layout_gravity="center" />
+  <android.support.v7.widget.CardView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_margin="2dp">
+    <TextView
+            android:id="@+id/textViewtopic"
+            android:text="Topic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="24dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal|bold"
+            />
+     </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_margin="2dp">
+      
+    <TextView
+            android:id="@+id/textViewAttempt"
+            android:text="Total attempt"
+            android:layout_width="match_parent"
+            android:layout_below="@id/textViewResult"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal|bold"
+            />
+       </android.support.v7.widget.CardView>
+      <android.support.v7.widget.CardView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_margin="2dp">
+    <TextView
+            android:id="@+id/textViewCorrect"
+            android:text="Total right answer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal|bold"
+            />
+    
+  </android.support.v7.widget.CardView>
+  <android.support.v7.widget.CardView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_margin="2dp">
+    <TextView
+            android:id="@+id/textViewPercentage"
+            android:text="Total Parcentage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal|bold"
+            />
+    
+  </android.support.v7.widget.CardView>
+  
+  
+</LinearLayout>

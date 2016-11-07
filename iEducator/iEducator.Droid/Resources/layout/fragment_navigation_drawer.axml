@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#FF7043">
+    <refractored.controls.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/profile_icon"
+        app:civ_border_color="#FF000000" />
+    <TextView
+        android:id="@+id/textViewID"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="I Educator"
+        android:textSize="24sp"
+        android:layout_below="@id/profile_image"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textColor="#ffffff" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">iEducator.Droid</string>
+  <string name="navigation_item_1">HOME</string>
+  <string name="navigation_item_2">Gallery</string>
+  <string name="navigation_item_3">Notification</string>
+  <string name="navigation_item_4">Report</string>
+  <string name="navigation_item_5">HELP/FAQ</string>
+  <string name="drawer_open">OPEN</string>
+  <string name="drawer_close">CLOSE</string>
+
+</resources>
